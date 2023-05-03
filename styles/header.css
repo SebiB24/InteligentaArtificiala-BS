@@ -19,10 +19,11 @@
 {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    column-gap: 10px;
     align-items: center;
     justify-content: center;
-    width: 90px;
+    width: 190px;
 }
 .lightmode-button
 {
@@ -41,9 +42,9 @@
 
 .tooltip2
 {
-    position: absolute;
-    bottom: -50px;
-    right: -125px;
+    position: relative;
+    bottom: -20px;
+    right: 0px;
     font-size: 20px;
     font-weight: 400;
     color:white;
@@ -66,7 +67,7 @@
 .left-section
 {
     display: flex;
-    width: 150px;
+    width: 200px;
     margin-right: 24px;
     align-items:center;
     justify-content: start;
